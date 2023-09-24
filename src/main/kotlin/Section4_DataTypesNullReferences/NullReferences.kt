@@ -1,4 +1,4 @@
-package section4
+package Section4_DataTypesNullReferences
 
 /**
  * can replace all java style null checks with the safety operator ? in kotlin

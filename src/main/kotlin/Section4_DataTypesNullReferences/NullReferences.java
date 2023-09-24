@@ -1,4 +1,4 @@
-package section4;
+package Section4_DataTypesNullReferences;
 
 public class NullReferences {
     public static void main(String[] args) {
