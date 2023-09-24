@@ -36,6 +36,11 @@ fun main(args: Array<String>) {
     str?.let { printText(it) } //'it' refers to the variable which the safe operator has been applied to
     // == is a safe operator
 
+    val nullableInts = arrayOfNulls<Int?>(5)
+    for (i in nullableInts) {
+        println(i)
+    }
+
 }
 
 fun printText(text: String) {
