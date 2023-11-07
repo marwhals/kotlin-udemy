@@ -7,6 +7,8 @@ fun main(args: Array<String>) {
      */
     val emp = Employee("Bob")
     println(emp)
+    emp.fullTime = false
+
 
     val emp2 = Employee("Joe")
     println(emp.firstName)
@@ -22,7 +24,10 @@ fun main(args: Array<String>) {
 
 /**
  * When A constructor is declared outside of the curly braces it is known as a primary constructor
+ * Kotlin creates getters and setters for free
  */
+
+
 //private class protected constructor(val firstName: String)
 //private class Employee(val firstName: String){
 //    var fullTime: Boolean = true
@@ -39,7 +44,19 @@ fun main(args: Array<String>) {
 ////    }
 //}
 
-class Employee(val firstName: String, var fullTime: Boolean = true)
+class Employee(val firstName: String, fullTime: Boolean = true) {
+    var fullTime = fullTime
+
+    get() {
+        println("Runing the custom get")
+        return field
+    }
+
+    set(value) {
+        println("Running the custom set")
+        field = value
+    }
+}
 
 class Demo {
     val dummy: String
