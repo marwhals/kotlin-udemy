@@ -1,6 +1,11 @@
 package section5_OOinKotlin
 
+val MY_CONSTANT = 100
+
 fun main(args: Array<String>) {
+
+    println(MY_CONSTANT)
+
     /*
     - In Kotlin the default visbility is public
     - internal - visibile in the same modules
@@ -43,6 +48,14 @@ fun main(args: Array<String>) {
 ////        this.firstName = firstName
 ////    }
 //}
+
+data class Car(val color: String, val model: String, val year: Int) {
+    /*
+        Data classes come with some functions for free
+        - such as equals
+        - and toString
+     */
+}
 
 class Employee(val firstName: String, fullTime: Boolean = true) {
     var fullTime = fullTime
