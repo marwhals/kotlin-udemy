@@ -40,7 +40,7 @@ fun whatever() = 3 * 4
 
 //Expression body
 // Function parameter types always have to be included
-fun labelMultiply(operand1: Int, operand2: Int, label: String = "The answer is:") = "$label ${operand1 * operand2}"
+inline fun labelMultiply(operand1: Int, operand2: Int, label: String = "The answer is:") = "$label ${operand1 * operand2}"
 
 //* can only have one vararg parameter in a function signature just like Java
 fun printColors(vararg cars: Car2, str: String) {
