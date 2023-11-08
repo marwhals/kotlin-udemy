@@ -1,8 +1,11 @@
 package section5_OOinKotlin.inheritance
 
 fun main(args: Array<String>) {
-    val laserPrinter = LaserPrinter("Brother 1234")
+    val laserPrinter = LaserPrinter("Brother 1234", 15)
     laserPrinter.printModel()
+
+    SomethingElse("Whatever")
+
 }
 
 abstract class Printer(val modelName: String) {
@@ -12,9 +15,29 @@ abstract class Printer(val modelName: String) {
     abstract fun bestSellingPrice(): Double
 }
 
-class LaserPrinter(modelName: String) : Printer(modelName) {
+open class LaserPrinter(modelName: String, ppm: Int) : Printer(modelName) {
 
-    override fun printModel() = println("The model name of this laser printer is $modelName")
+    //override functions are also open
+    final override fun printModel() = println("The model name of this laser printer is $modelName")
     override fun bestSellingPrice(): Double = 1291.99
+}
 
+class SpecialLaserPrinter(modelName: String) : LaserPrinter(modelName, 12) {
+
+}
+
+open class Something {
+
+    val someProperty: String
+
+    constructor(someParameter: String) {
+        someProperty = someParameter
+        println("I'm in the parents constructor")
+    }
+}
+
+class SomethingElse : Something {
+    constructor(someOtherParameter: String) : super(someOtherParameter) {
+        println("I'm in the child's constructor")
+    }
 }

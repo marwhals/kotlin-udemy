@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f10c59a-a170-4259-b291-735aae020a37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/section5_OOinKotlin/JavaEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/section5_OOinKotlin/AccessModifiers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/section5_OOinKotlin/AccessModifiers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/section5_OOinKotlin/inheritance/Printer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/section5_OOinKotlin/inheritance/Printer.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -63,7 +61,7 @@
       <recent name="C:\Users\Marjan\Documents\JVM-Scala-Projects\kotlin-udemy\src\main\kotlin\Section4_DataTypesNullReferences" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.AccessModifiersKt">
+  <component name="RunManager" selected="Kotlin.PrinterKt">
     <configuration name="AccessModifiersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section5_OOinKotlin.AccessModifiersKt" />
       <module name="kotlin-udemy" />
@@ -116,14 +114,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrinterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section5_OOinKotlin.inheritance.PrinterKt" />
+      <module name="kotlin-udemy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Kotlin.MainKt" />
       <item itemvalue="Kotlin.AccessModifiersKt" />
+      <item itemvalue="Kotlin.PrinterKt" />
       <item itemvalue="Kotlin.Challenge1Kt" />
       <item itemvalue="Kotlin.DataTypesKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PrinterKt" />
         <item itemvalue="Kotlin.AccessModifiersKt" />
         <item itemvalue="Kotlin.DataTypesKt" />
         <item itemvalue="Kotlin.Challenge1Kt" />
