@@ -21,6 +21,19 @@ fun main(args: Array<String>) {
     for (c in lotsOfCars) {
         println(c)
     }
+
+    val s = "this is all in lowercase"
+    //Using the extenstion function
+    println(s.upperFirstAndLast())
+}
+
+//Example extension function
+// String is the reciever type
+fun String.upperFirstAndLast(): String {
+    // Could actually remove the 'this keyword'
+    val upperFirst = this.substring(0, 1).uppercase() + this.substring(1)
+    return upperFirst.substring(0, upperFirst.length - 1) +
+            upperFirst.substring(upperFirst.length - 1, upperFirst.length).uppercase()
 }
 
 fun whatever() = 3 * 4
