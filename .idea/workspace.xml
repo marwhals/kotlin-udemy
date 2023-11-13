@@ -10,9 +10,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f10c59a-a170-4259-b291-735aae020a37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/section6_LoopsIfWhenTryCatch/loops.kt" afterDir="false" />
-    </list>
+    <list default="true" id="7f10c59a-a170-4259-b291-735aae020a37" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
