@@ -7,6 +7,8 @@ import java.time.Year
  */
 
 fun main(args: Array<String>) {
+    println(Department.ACCOUNTING.getDeptInfo()) // Using the enum
+
     println(CompanyCommunications.getTagLine())
     println(CompanyCommunications.getCopyrightLine())
 
@@ -87,4 +89,18 @@ interface SomeInterface {
 
 fun wantsSomeInterface(si: SomeInterface) {
     println("Printing from wantsSomeInterface ${si.mustImplement(22)}")
+}
+
+/*
+- Enum class
+ */
+
+enum class Department(val fullName: String, val numEmployees: Int) {
+    HR("Human Resources", 5),
+    IT("The IT", 321),
+    ACCOUNTING("Accounting", 3),
+    SALES("Salesy", 34); // Exception to the semi colon rule
+
+    fun getDeptInfo() = "The $fullName department has $numEmployees employees"
+
 }
