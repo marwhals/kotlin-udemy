@@ -11,17 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f10c59a-a170-4259-b291-735aae020a37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/AScalaModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AScalaModule/.idea/modules/AnotherModule-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AScalaModule/src/main/scala/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/section5_OOinKotlin/imports.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlin-udemy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlin-udemy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/section6_LoopsIfWhenTryCatch/loops.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,17 +92,10 @@
       <recent name="C:\Users\Marjan\Documents\JVM-Scala-Projects\kotlin-udemy\src\main\kotlin\Section4_DataTypesNullReferences" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ImportsKt">
+  <component name="RunManager" selected="Kotlin.LoopsKt">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="AScalaModule" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccessModifiersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section5_OOinKotlin.AccessModifiersKt" />
-      <module name="kotlin-udemy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +109,13 @@
     </configuration>
     <configuration name="ImportsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section5_OOinKotlin.ImportsKt" />
+      <module name="kotlin-udemy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoopsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section6_LoopsIfWhenTryCatch.LoopsKt" />
       <module name="kotlin-udemy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,17 +147,17 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Kotlin.MainKt" />
       <item itemvalue="Kotlin.ImportsKt" />
+      <item itemvalue="Kotlin.LoopsKt" />
       <item itemvalue="Kotlin.CompanyCommunicationsKt" />
-      <item itemvalue="Kotlin.AccessModifiersKt" />
       <item itemvalue="Kotlin.PrinterKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LoopsKt" />
         <item itemvalue="Kotlin.ImportsKt" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Kotlin.CompanyCommunicationsKt" />
         <item itemvalue="Kotlin.PrinterKt" />
-        <item itemvalue="Kotlin.AccessModifiersKt" />
       </list>
     </recent_temporary>
   </component>
