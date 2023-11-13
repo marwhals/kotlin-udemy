@@ -3,15 +3,52 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="kotlin-udemy" />
+      <module name="AnotherModule-build" />
+    </loaded-modules>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7f10c59a-a170-4259-b291-735aae020a37" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/AScalaModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AScalaModule/.idea/modules/AnotherModule-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AScalaModule/src/main/scala/Main.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/section5_OOinKotlin/imports.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlin-udemy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlin-udemy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/section5_OOinKotlin/CompanyCommunications.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/section5_OOinKotlin/CompanyCommunications.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/AnotherModule">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AnotherModule" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,17 +80,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marjan/Documents/ScalaProjects/fs2-playground&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/Marjan/Documents/ScalaProjects/fs2-playground",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Marjan\Documents\JVM-Scala-Projects\kotlin-udemy\src\main\kotlin\section5_OOinKotlin" />
@@ -62,25 +102,17 @@
       <recent name="C:\Users\Marjan\Documents\JVM-Scala-Projects\kotlin-udemy\src\main\kotlin\Section4_DataTypesNullReferences" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CompanyCommunicationsKt">
-    <configuration name="AccessModifiersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section5_OOinKotlin.AccessModifiersKt" />
-      <module name="kotlin-udemy" />
+  <component name="RunManager" selected="Kotlin.ImportsKt">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="AScalaModule" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Challenge1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="challenge1.Challenge1Kt" />
+    <configuration name="AccessModifiersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section5_OOinKotlin.AccessModifiersKt" />
       <module name="kotlin-udemy" />
-      <shortenClasspath name="NONE" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,17 +124,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTypesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Section4_DataTypesNullReferences.DataTypesKt" />
+    <configuration name="ImportsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section5_OOinKotlin.ImportsKt" />
       <module name="kotlin-udemy" />
-      <shortenClasspath name="NONE" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,20 +154,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.AccessModifiersKt" />
-      <item itemvalue="Kotlin.Challenge1Kt" />
-      <item itemvalue="Kotlin.CompanyCommunicationsKt" />
-      <item itemvalue="Kotlin.DataTypesKt" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Kotlin.MainKt" />
+      <item itemvalue="Kotlin.ImportsKt" />
+      <item itemvalue="Kotlin.CompanyCommunicationsKt" />
+      <item itemvalue="Kotlin.AccessModifiersKt" />
       <item itemvalue="Kotlin.PrinterKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ImportsKt" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Kotlin.CompanyCommunicationsKt" />
         <item itemvalue="Kotlin.PrinterKt" />
         <item itemvalue="Kotlin.AccessModifiersKt" />
-        <item itemvalue="Kotlin.DataTypesKt" />
-        <item itemvalue="Kotlin.Challenge1Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -157,5 +181,8 @@
       <updated>1690676817115</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="AScalaModule" />
   </component>
 </project>

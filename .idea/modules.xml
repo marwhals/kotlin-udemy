@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AScalaModule.iml" filepath="$PROJECT_DIR$/.idea/modules/AScalaModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AnotherModule/.idea/modules/AnotherModule-build.iml" filepath="$PROJECT_DIR$/AnotherModule/.idea/modules/AnotherModule-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/kotlin-udemy.iml" filepath="$PROJECT_DIR$/.idea/kotlin-udemy.iml" />
     </modules>
   </component>
