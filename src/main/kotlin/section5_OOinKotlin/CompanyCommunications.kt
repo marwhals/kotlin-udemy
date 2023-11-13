@@ -36,9 +36,7 @@ object CompanyCommunications {
     val currentYear = Year.now().value
 
     fun getTagLine() = "Our company rocks!"
-    fun getCopyrightLine() = "Copyright \u00A9 $currentYear Our Company. All right reserved"
-
-
+    internal fun getCopyrightLine() = "Copyright \u00A9 $currentYear Our Company. All right reserved" // Module only
 }
 
 /*
@@ -104,3 +102,5 @@ enum class Department(val fullName: String, val numEmployees: Int) {
     fun getDeptInfo() = "The $fullName department has $numEmployees employees"
 
 }
+
+private fun topLevel(str: String) = println("Top level function: $str") // Private file only
