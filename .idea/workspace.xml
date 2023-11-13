@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f10c59a-a170-4259-b291-735aae020a37" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/section5_OOinKotlin/inheritance/Printer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/section5_OOinKotlin/inheritance/Printer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/section5_OOinKotlin/CompanyCommunications.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/section5_OOinKotlin/CompanyCommunications.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Marjan/Documents/JVM-Scala-Projects/kotlin-udemy/src/main/kotlin/section5_OOinKotlin",
+    "last_opened_file_path": "C:/Users/Marjan/Documents/ScalaProjects/fs2-playground",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -61,7 +61,7 @@
       <recent name="C:\Users\Marjan\Documents\JVM-Scala-Projects\kotlin-udemy\src\main\kotlin\Section4_DataTypesNullReferences" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PrinterKt">
+  <component name="RunManager" selected="Kotlin.CompanyCommunicationsKt">
     <configuration name="AccessModifiersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section5_OOinKotlin.AccessModifiersKt" />
       <module name="kotlin-udemy" />
@@ -80,6 +80,13 @@
         <option name="region" />
         <option name="useCurrentConnection" value="false" />
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompanyCommunicationsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section5_OOinKotlin.CompanyCommunicationsKt" />
+      <module name="kotlin-udemy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,6 +130,7 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.MainKt" />
+      <item itemvalue="Kotlin.CompanyCommunicationsKt" />
       <item itemvalue="Kotlin.AccessModifiersKt" />
       <item itemvalue="Kotlin.PrinterKt" />
       <item itemvalue="Kotlin.Challenge1Kt" />
@@ -130,6 +138,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CompanyCommunicationsKt" />
         <item itemvalue="Kotlin.PrinterKt" />
         <item itemvalue="Kotlin.AccessModifiersKt" />
         <item itemvalue="Kotlin.DataTypesKt" />
