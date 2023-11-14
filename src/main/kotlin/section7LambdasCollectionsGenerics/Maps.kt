@@ -1,8 +1,25 @@
 package section7LambdasCollectionsGenerics
 
-import Section4_DataTypesNullReferences.printText
-
 fun main(args: Array<String>) {
+
+    /*
+    - Set are immutable
+     */
+    val setInts = setOf(1,2,3,4,5,6,123)
+    println(setInts.plus(11111))
+    println(setInts.plus(1))
+    println(setInts.minus(1))
+    println(setInts.minus(99999999999999))
+    println(setInts.average())
+    println(setInts.drop(4))
+
+    /*
+    - Mubtable interface is often a sub interface of the immutable i.e for mutability use functions in the mutable interface
+     */
+
+    val setIntsMutable = mutableSetOf(1,2,3,4,5,6,123)
+    println(setIntsMutable.plus(10))
+    println(setIntsMutable)
 
     val immutableMap = mapOf<Int, Car>(
         1 to Car("red", "honda", 123),
@@ -33,7 +50,9 @@ fun main(args: Array<String>) {
     println("color = $color, model = $model, and year = $year")
 
 }
-
+/* *
+ - Alternatvely make this a data class
+ */
 class Car(val color: String, val model: String, val year: Int) {
     operator fun component1() = color
     operator fun component2() = model
