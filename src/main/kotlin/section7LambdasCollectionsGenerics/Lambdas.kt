@@ -20,6 +20,50 @@ fun main(args: Array<String>) {
 
     run(::topLevel)
 
+    println(countTo100())
+
+    findByLastName(employees, "bobson")
+    findByLastName(employees, "zobson")
+
+    "Some string".apply somestring@{
+        "Another String".apply {
+            println(lowercase())
+            println(this@somestring.uppercase())
+        }
+    }
+
+}
+
+fun countTo100(): String {
+    val numbers = StringBuilder()
+    for (i in 1..99) {
+        numbers.append(i)
+        numbers.append(", ")
+    }
+    numbers.append(100)
+    return numbers.toString()
+}
+
+fun countTo100With(): String {
+    val numbers = StringBuilder()
+    return with(numbers) {//Converting this instance object into a 'reciever' -> an object that has been passed to a lambda
+        for (i in 1..99) {
+            append(i)
+            append(", ")
+        }
+        append(100)
+        toString()
+    }
+}
+
+fun findByLastName(employees: List<Employee>, lastName: String) {
+    employees.forEach() returnBlock@{
+        if (it.lastName == lastName) {
+            println("Yes there is a person with last name $lastName")
+            return@returnBlock // Now a local return
+        }
+    }
+    println("Nope there is no emplployee with the last name $lastName")
 }
 
 fun topLevel() = println("Im in a function")
