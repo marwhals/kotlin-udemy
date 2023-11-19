@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f10c59a-a170-4259-b291-735aae020a37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Section8FileIO/WalkFileTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/section7LambdasCollectionsGenerics/Generics/UpperBound.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +46,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -101,7 +102,7 @@
       <recent name="C:\Users\Marjan\Documents\JVM-Scala-Projects\kotlin-udemy\src\main\kotlin\Section4_DataTypesNullReferences" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.WalkFileTreeKt">
+  <component name="RunManager" selected="Kotlin.UpperBoundKt">
     <configuration name="CollectionsStuffKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section7LambdasCollectionsGenerics.CollectionsStuff.CollectionsStuffKt" />
       <module name="kotlin-udemy" />
@@ -116,15 +117,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdasKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdasKt" />
+    <configuration name="SequencesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section7LambdasCollectionsGenerics.SequencesKt" />
       <module name="kotlin-udemy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequencesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section7LambdasCollectionsGenerics.SequencesKt" />
+    <configuration name="UpperBoundKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section7LambdasCollectionsGenerics.Generics.UpperBoundKt" />
       <module name="kotlin-udemy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.UpperBoundKt" />
         <item itemvalue="Kotlin.WalkFileTreeKt" />
         <item itemvalue="Kotlin.FileReadingKt" />
         <item itemvalue="Kotlin.SequencesKt" />
         <item itemvalue="Kotlin.CollectionsStuffKt" />
-        <item itemvalue="Kotlin.LambdasKt" />
       </list>
     </recent_temporary>
   </component>
