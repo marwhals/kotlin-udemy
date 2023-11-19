@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f10c59a-a170-4259-b291-735aae020a37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/section7LambdasCollectionsGenerics/Sequences.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Section8FileIO/FileReading.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testFIle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +95,23 @@
       <recent name="C:\Users\Marjan\Documents\JVM-Scala-Projects\kotlin-udemy\src\main\kotlin\section5_OOinKotlin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marjan\Documents\JVM-Scala-Projects\kotlin-udemy" />
+      <recent name="C:\Users\Marjan\Documents\JVM-Scala-Projects\kotlin-udemy\src\main\kotlin\Section8FileIO" />
       <recent name="C:\Users\Marjan\Documents\JVM-Scala-Projects\kotlin-udemy\src\main\kotlin\section7LambdasCollectionsGenerics\CollectionsStuff" />
       <recent name="C:\Users\Marjan\Documents\JVM-Scala-Projects\kotlin-udemy\src\main\kotlin\Section3DifferencesJava" />
       <recent name="C:\Users\Marjan\Documents\JVM-Scala-Projects\kotlin-udemy\src\main\kotlin\Section4_DataTypesNullReferences" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SequencesKt">
+  <component name="RunManager" selected="Kotlin.FileReadingKt">
     <configuration name="CollectionsStuffKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section7LambdasCollectionsGenerics.CollectionsStuff.CollectionsStuffKt" />
+      <module name="kotlin-udemy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileReadingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section8FileIO.FileReadingKt" />
       <module name="kotlin-udemy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,6 +182,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FileReadingKt" />
         <item itemvalue="Kotlin.SequencesKt" />
         <item itemvalue="Kotlin.CollectionsStuffKt" />
         <item itemvalue="Kotlin.LambdasKt" />
