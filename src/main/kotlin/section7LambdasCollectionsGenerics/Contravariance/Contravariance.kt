@@ -10,7 +10,6 @@ fun main(args: Array<String>) {
     val flowerTender = object: FlowerCare<Flower> {
         override fun prune(flower: Flower) = println("I'm tending a ${flower.name}!")
     }
-
 //    val roseTender = object: FlowerCare<Rose> {
 //        override fun prune(flower: Rose) = println("I'm pruning a rose!")
 //    }
