@@ -1,12 +1,11 @@
-package Section9JavaInteroperability.javacode;
+package Section9JavaInteroperability;
 
-import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /*
 - This annotations are just documentation
  */
-public class Car {
+public class JavaCar {
 
     public static int x = 5;
     private String color;
@@ -14,7 +13,7 @@ public class Car {
     private int year;
     private Object anObject;
 
-    public Car(String color, String model, int year) {
+    public JavaCar(String color, String model, int year) {
         this.color = color;
         this.model = model;
         this.year = year;
